@@ -8,7 +8,7 @@ Arg #1: The root url that will be used to start the crawl
 Arg #2: The max number of reachable anchor tags N to be collected as specified by the user
 Arg #3: The timeout limit in miliseconds as specified by the user
 
-Reachable urls are stored as a custome object "result" and then printed in ascending alphaetical order.
+Reachable urls are stored as a custome object "result" (result.java is the class file) and then printed in ascending alphaetical order.
 any queries in the url are tabbed underneath the url they were found in and are also in ascending alphabetical order.
 
 The program will exit if args 2 and 3 are not numbers and will not work properly if a non proper url is given.
